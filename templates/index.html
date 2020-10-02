@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %}">
+  <title>COVID-19 INFO</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'js/myscript.js' %}"></script>
+</head>
+
+
+<body onload="main()">
+
+
+<form action="" method="POST">
+  <input type="hidden" name="var_lat_php" id="var_lat" value="">
+  <input type="hidden" name="var_lon_php" id="var_lon" value="">
+  <input type="submit" name="submit_button" id="suid" value="Lets Fight COVID-19">
+</form>
+
+<div class="top-container">
+  <h1>Lets Fight COVID-19</h1>
+</div>
+<div class="header">
+  <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions. Follow advice provided by your local public health agency.</p>
+  <hr>
+</div>
+
+<div class="content">
+<p>To prevent the spread of COVID-19:</p>
+<ul>
+<li>Follow social distancing.</li>
+<li> Clean your hands often. Use soap and water, or an alcohol-based sanitizers.</li>
+<li> Maintain a safe distance from anyone who is coughing or sneezing.</li>
+<li> Do not touch your eyes, nose and mouth with unclean hands.</li>
+<li> Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+<li> Stay home if you feel unwell.</li>
+<li> If you have a fever, a cough, and difficulty breathing, seek medical attention. Call in advance.</li>
+<li> Follow the directions of your local health authority.</li>
+<li>Avoiding unneeded visits to medical facilities allows healthcare systems to operate more effectively, therefore protecting you and others.</li>
+<li>Ensure that the surfaces and objects are regularly cleaned.</li>
+</ul>
+<hr>
+</div>
+
+
+
+<div class="footer">
+  <p align="center">Data provided here will get updated when the data fetching sources provide updated data.</p>
+</div>
+
+
+
+</body>
+</html>
